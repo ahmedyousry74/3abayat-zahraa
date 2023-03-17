@@ -1,0 +1,30 @@
+body {
+  direction: ltr;
+}
+.section_title .breadcrumb {
+  flex-direction: row;
+}
+.authentication .authentication_div .form_auth form span {
+  border-right: 0;
+  border-radius: 4px 0 0 4px !important;
+  border-left: 1px solid #ccc;
+}
+.authentication .authentication_div .form_auth form input {
+  border-right: 1px solid #ccc;
+  border-radius: 0 4px 4px 0 !important;
+}
+.authentication .authentication_div .form_auth form label {
+  right: initial;
+  left: -23px;
+}
+.authentication .authentication_div .form_auth .eye-show {
+  left: auto;
+  right: 15px;
+}
+.authentication .authentication_div .form_auth .code-phone {
+  border-right: 1px solid #ccc;
+  border-radius: 0 4px 4px 0 !important;
+}
+.authentication .authentication_div .form_auth .check_privacy .form-check-input {
+  float: left;
+}

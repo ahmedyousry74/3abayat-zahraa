@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
+    <title>3bayat zharaa</title>
+</head>
+
+<body>
+    <!-- start login -->
+    <section class="authentication">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section_title">
+                        <h2 class=""> إنشاء حساب </h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">إنشاء حساب</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="authentication_div">
+                        <div class="form_auth">
+                            <form action="">
+                                <div class="input-group flex-nowrap form-floating mb-3">
+                                    <span class="input-group-text" id="addon-wrapping"> <img src="images/about.png" alt=""> </span>
+                                    <input type="tel" class="form-control" placeholder="Username" aria-label="Username"
+                                        aria-describedby="addon-wrapping" name="username" id="username">
+                                    <label for="floatingPassword"> الإسم </label>
+                                </div>
+                                <div class="input-group flex-nowrap form-floating mb-3">
+                                    <span class="input-group-text" id="addon-wrapping"> <img src="images/packet.png" alt=""> </span>
+                                    <input type="tel" class="form-control" placeholder="email" aria-label="email"
+                                        aria-describedby="addon-wrapping" name="email" id="email">
+                                    <label for="floatingPassword"> البريد الإلكتروني </label>
+                                </div>
+                                <div class="input-group flex-nowrap form-floating mb-3 phone-number">
+                                    <span class="input-group-text" id="addon-wrapping"> <img src="images/Mask-Group-24.png" alt=""> </span>
+                                    <input type="tel" class="form-control" placeholder="phone" aria-label="phone"
+                                        aria-describedby="addon-wrapping" name="phone" id="phone">
+                                    <label for="floatingPassword">رقم الجوال </label>
+                                    <span class="input-group-text code-phone" id="addon-wrapping">+995</span>
+                                </div>
+                                <div class="input-group flex-nowrap form-floating mb-3">
+                                    <span class="input-group-text" id="addon-wrapping"> <img src="images/Group-156.png" alt=""> </span>
+                                    <input type="password" class="form-control password" placeholder="password"
+                                        aria-label="password" aria-describedby="addon-wrapping" name="password" id="password">
+                                    <label for="floatingPassword">كلمة المرور</label>
+                                    <div class="eye-show">
+                                        <i class="fas fa-eye-slash"></i>
+                                    </div>
+                                </div>
+                                <div class="input-group flex-nowrap form-floating mb-3">
+                                    <span class="input-group-text" id="addon-wrapping"> <img src="images/Group-156.png" alt=""> </span>
+                                    <input type="password" class="form-control password" placeholder="password"
+                                        aria-label="password" aria-describedby="addon-wrapping" name="password" id="password">
+                                    <label for="floatingPassword">تأكيد كلمة المرور</label>
+                                    <div class="eye-show">
+                                        <i class="fas fa-eye-slash"></i>
+                                    </div>
+                                </div>
+                                <div class="check_privacy">
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            الموافقة على <a href=""> شروط الأحكام </a> و <a href=""> سياسة الخصوصية </a>
+                                        </label>
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    </div>
+                                </div>
+                                <button type="button" class="submit_form hvr-rectangle-out" data-bs-toggle="modal"
+                                    data-bs-target="#codePhone"> تسجيل
+                                </button>
+                                <div class="have_account">
+                                    <p> تمتلك حساب بالفعل ؟ <a href="login.html"> تسجيل دخول </a> </p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end login -->
+
+    <!-- start modal code phone -->
+    <div class="modal fade" id="codePhone" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h5 class="modal-title" id="exampleModalLabel"> كود التأكيد </h5>
+                </div>
+                <div class="modal-body">
+                    <p> تم إرسال كود التأكيد على هاتفك</p>
+                    <div class="form_auth code-vertification">
+                        <form action="" class="general_form row">
+                            <input maxlength='6' value='' />
+                            <div class="code-options">
+                                <div id="minute-countdown"></div>
+                                <button>اعادة ارسال الكود ؟</button>
+                            </div>
+                            <button type="submit" class="submit_form hvr-rectangle-out"> إرسال </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modal code phone -->
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        function countdown(elementName, minutes, seconds) {
+            var element, endTime, hours, mins, msLeft, time;
+
+            function twoDigits(n) {
+                return (n <= 1 ? "0" + n : n);
+            }
+
+            function updateTimer() {
+                msLeft = endTime - (+new Date);
+                if (msLeft < 1000) {
+                    element.innerHTML = "الوقت قد انتهى";
+                } else {
+                    time = new Date(msLeft);
+                    hours = time.getUTCHours();
+                    mins = time.getUTCMinutes();
+                    element.innerHTML = (hours ? hours + ':' + twoDigits(mins) : mins) + ':' + twoDigits(time.getUTCSeconds());
+                    setTimeout(updateTimer, time.getUTCMilliseconds() + 500);
+                }
+            }
+
+            element = document.getElementById(elementName);
+            endTime = (+new Date) + 1000 * (60 * minutes + seconds) + 500;
+            updateTimer();
+        }
+
+        countdown("minute-countdown", 1, 0);
+
+    </script>
+</body>
+
+</html>

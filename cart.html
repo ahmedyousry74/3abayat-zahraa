@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <title>3bayat zharaa</title>
+</head>
+
+<!-- start top navbar -->
+<section class="top-navbar">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="top-navbar-option">
+                    <ul>
+                        <li>
+                            <div class="btns-auth">
+                                <a href="signup.html"> إنشاء حساب </a>
+                                <a href="login.html"> تسجيل دخول </a>
+                            </div>
+                        </li>
+                        <li class="search-item">
+                            <div class="search-box">
+                                <form action="">
+                                    <button class="btn-search"><i class="fas fa-search"></i></button>
+                                    <input type="text" class="input-search" placeholder="بحث">
+                                </form>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="choose-lang">
+                                <button> العربية </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end top navbar -->
+
+
+<!-- start navbar -->
+<nav class='navbar navbar-expand-lg navbar-light'>
+    <div class='container'>
+        <a class='navbar-brand text-white' href='index.html'>Logo</a>
+        <button class='btn navbar-toggler' type='button' data-bs-toggle='offcanvas' data-bs-target='#offcanvasExample'
+            aria-controls='offcanvasExample'>
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class='offcanvas offcanvas-start-lg' tabindex='-1' id='offcanvasExample'
+            aria-labelledby='offcanvasExampleLabel'>
+            <div class='offcanvas-header d-flex d-lg-none'>
+                <h5 class='offcanvas-title text-white' id='offcanvasExampleLabel'>Navbar</h5>
+                <a href='javascript:void(0) ' class='text-reset p-0' data-bs-dismiss='offcanvas' aria-label='close'>
+                    <i class="fas fa-times"></i>
+                </a>
+            </div>
+            <div class='offcanvas-body p-lg-0'>
+                <ul class='navbar-nav'>
+                    <li class='nav-item'>
+                        <a class='nav-link active' aria-current='page' href='index.html'>الرئيسية</a>
+                    </li>
+                    <li class="nav-item dropdown megamenu"><a id="megamneu" href="" type="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            class="nav-link dropdown-toggle font-weight-bold text-uppercase">الأقسام</a>
+                        <div aria-labelledby="megamneu" class="dropdown-menu megamenu-dropdown border-0 p-0 m-0">
+                            <div class="container">
+                                <div class="row bg-white rounded-0 m-0 shadow-sm">
+                                    <div class="col-12">
+                                        <div class="p-4">
+                                            <div class="row">
+                                                <div class="col-lg-6 mb-4 ">
+                                                    <ul class="list-unstyled text-end">
+                                                        <li class="nav-item"><a href=""
+                                                                class="nav-link text-small pb-0">عبايات</a></li>
+                                                        <li class="nav-item"><a href="store.html"          
+                                                                class="nav-link text-small pb-0 ">أكسسوارات</a></li>
+                                                        <li class="nav-item"><a href="store.html"
+                                                                class="nav-link text-small pb-0 ">عطور</a></li>
+                                                        <li class="nav-item"><a href="store.html"
+                                                                class="nav-link text-small pb-0 ">طرح</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 mb-4 ">
+                                                    <ul class="list-unstyled text-end">
+                                                        <li class="nav-item"><a href=""
+                                                                class="nav-link text-small pb-0">عبايات</a></li>
+                                                        <li class="nav-item"><a href="store.html"
+                                                                class="nav-link text-small pb-0 ">أكسسوارات</a></li>
+                                                        <li class="nav-item"><a href="store.html"
+                                                                class="nav-link text-small pb-0 ">عطور</a></li>
+                                                        <li class="nav-item"><a href="store.html"
+                                                                class="nav-link text-small pb-0 ">طرح</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' aria-current='page' href='stores.html'>المتاجر المشتركة</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' aria-current='page' href='about-us.html'>من نحن</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' aria-current='page' href='as-store.html'>سجل كـتاجر</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' aria-current='page' href='contact-us.html'>تواصل معنا</a>
+                    </li>
+
+                </ul>
+                <ul class='navbar-nav-icons'>
+                    <li class='nav-item '>
+                        <a class='nav-link' aria-current='page' href='favourite.html'> <i class="fas fa-heart"></i> </a>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">
+                            9
+                        </span>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' aria-current='page' href='notification.html'> <i class="fas fa-bell"></i> </a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' aria-current='page' href='cart.html'> <i class="fas fa-cart-plus"></i> </a>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">
+                            20
+                        </span>
+                    </li>
+                    <li class='nav-item'>
+                        <div class="dropdown profile-dropdown">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-user"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="orders.html"> <img src="images/Group-946.png" alt=""> طلباتي
+                                    </a></li>
+                                <li><a class="dropdown-item" href="address.html"> <img src="images/Group-941.png" alt=""> دفتر
+                                        العناوين </a></li>
+                                <li><a class="dropdown-item" href="offers.html"><img src="images/Group-942.png" alt=""> العروض</a></li>
+                                <li><a class="dropdown-item" href="returns.html"> <img src="images/Group-429.png" alt=""> المسترجعات</a></li>
+                                <li><a class="dropdown-item" href="#"> <img src="images/Group-944.png" alt=""> نقاط الولاء</a></li>
+                                <li><a class="dropdown-item" href="setting.html"> <img src="images/Group-432.png" alt=""> الاعدادات</a></li>
+                                <button type="submit">تسجيل الخروج</button>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- end navbar -->
+
+<!-- start empty-cart -->
+<div class="cart_page">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section_title mb-2 wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">السلة</li>
+                        </ol>
+                    </nav>
+                    <h2 class=""> السلة </h2>
+                </div>
+            </div>
+
+            <!-- <div class="col-12">
+                <div class="empty-cart">
+                    <img src="images/cart-flatbed-solid.png" alt="cart">
+                    <h3> السلة فارغة </h3>
+                    <a href="stores.html"> تسوق الاّن </a>
+                </div>
+            </div> -->
+
+
+            <div class="col-12">
+                <section class="wizard-section">
+                    <div class="form-wizard">
+                        <form action="" method="post" role="form">
+                            <div class="form-wizard-header wow fadeInUp" data-wow-duration="0.71s" data-wow-delay="0.7s">
+                                <ul class="list-unstyled form-wizard-steps clearfix">
+                                    <li class="active">
+                                        <span>1</span>
+                                        <p> منتجاتي </p>
+                                        <img src="images/2.png" alt="">
+                                    </li>
+                                    <li>
+                                        <span>2</span>
+                                        <p> منتجاتي </p>
+                                        <img src="images/location-dot-solid.png" alt="">
+                                    </li>
+                                    <li>
+                                        <span>3</span>
+                                        <p> منتجاتي </p>
+                                        <img src="images/2.png" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="order_section">
+                                <fieldset class="wizard-fieldset show">
+                                    <div class="table-order mt-5 table-responsive-sm">
+                                        <table class="table wow fadeInRight" data-wow-duration="0.9s" data-wow-delay="0.8s">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">المنتجات</th>
+                                                    <th scope="col">سعر القطعة</th>
+                                                    <th scope="col">الكمية</th>
+                                                    <th scope="col">السعر الكلي</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row"> <button> <i class="fas fa-trash"></i> </button>
+                                                    </th>
+                                                    <td>
+                                                        <div class="d-flex">
+                                                            <div class="flex-shrink-0">
+                                                                <img src="images/NoPath-Copy7.png" alt="img-cart">
+                                                            </div>
+                                                            <div class="flex-grow-1 ms-3">
+                                                                <h5>عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم</h5>
+                                                                <a href="store.html"> عبايات حوراء </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="price">
+                                                        <span class="cart_price">200 ر.س</span>
+                                                        <span class="cart_price_delete"> 250 ر.س</span>
+                                                    </td>
+                                                    <td class="product-chosse-quantity">
+                                                        <div class="product-quantity">
+                                                            <div class="product-chosse-quantity">
+                                                                <button class="subtract" type="button"> - </button>
+                                                                <input type="text" class="quantity" value="0">
+                                                                <button class="add" type="button"> + </button>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="cart_price_total"> 400 ر.س </span>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"> <button> <i class="fas fa-trash"></i> </button>
+                                                    </th>
+                                                    <td>
+                                                        <div class="d-flex">
+                                                            <div class="flex-shrink-0">
+                                                                <img src="images/NoPath-Copy7.png" alt="img-cart">
+                                                            </div>
+                                                            <div class="flex-grow-1 ms-3">
+                                                                <h5>عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم</h5>
+                                                                <a href="store.html"> عبايات حوراء </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="price">
+                                                        <span class="cart_price">200 ر.س</span>
+                                                        <span class="cart_price_delete"> 250 ر.س</span>
+                                                    </td>
+                                                    <td class="product-chosse-quantity">
+                                                        <div class="product-quantity">
+                                                            <div class="product-chosse-quantity">
+                                                                <button class="subtract" type="button"> - </button>
+                                                                <input type="text" class="quantity" value="0">
+                                                                <button class="add" type="button"> + </button>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="cart_price_total"> 400 ر.س </span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"> <button> <i class="fas fa-trash"></i> </button>
+                                                    </th>
+                                                    <td>
+                                                        <div class="d-flex">
+                                                            <div class="flex-shrink-0">
+                                                                <img src="images/NoPath-Copy7.png" alt="img-cart">
+                                                            </div>
+                                                            <div class="flex-grow-1 ms-3">
+                                                                <h5>عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم</h5>
+                                                                <a href="store.html"> عبايات حوراء </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="price">
+                                                        <span class="cart_price">200 ر.س</span>
+                                                        <span class="cart_price_delete"> 250 ر.س</span>
+                                                    </td>
+                                                    <td class="product-chosse-quantity">
+                                                        <div class="product-quantity">
+                                                            <div class="product-chosse-quantity">
+                                                                <button class="subtract" type="button"> - </button>
+                                                                <input type="text" class="quantity" value="0">
+                                                                <button class="add" type="button"> + </button>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="cart_price_total"> 400 ر.س </span>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"> <button> <i class="fas fa-trash"></i> </button>
+                                                    </th>
+                                                    <td>
+                                                        <div class="d-flex">
+                                                            <div class="flex-shrink-0">
+                                                                <img src="images/NoPath-Copy7.png" alt="img-cart">
+                                                            </div>
+                                                            <div class="flex-grow-1 ms-3">
+                                                                <h5>عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم</h5>
+                                                                <a href="store.html"> عبايات حوراء </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="price">
+                                                        <span class="cart_price">200 ر.س</span>
+                                                        <span class="cart_price_delete"> 250 ر.س</span>
+                                                    </td>
+                                                    <td class="product-chosse-quantity">
+                                                        <div class="product-quantity">
+                                                            <div class="product-chosse-quantity">
+                                                                <button class="subtract" type="button"> - </button>
+                                                                <input type="text" class="quantity" value="0">
+                                                                <button class="add" type="button"> + </button>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="cart_price_total"> 400 ر.س </span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="cart_scheckout wow fadeInRight" data-wow-duration="0.95s" data-wow-delay="0.9s">
+                                        <div class="cart_checkout_title">
+                                            <span>ملخص الدفع</span>
+                                            <span>عدد العناصر 3</span>
+                                        </div>
+                                        <div class="cart_checkout_coupon">
+                                            <input type="text" name="" id="" placeholder="كود الخصم">
+                                            <button type="button"> + </button>
+                                        </div>
+                                        <div class="cart_checkout_list">
+                                            <li>
+                                                <span>الاجمالى غير شامل الضريبة </span>
+                                                <span>600 ر.س</span>
+                                            </li>
+                                            <li>
+                                                <span>قيمة الضريبة </span>
+                                                <span>20 ر.س</span>
+                                            </li>
+                                            <li class="cart_checkout_total_price">
+                                                <span>المجموع الكلى </span>
+                                                <span>620 ر.س</span>
+                                            </li>
+                                        </div>
+                                    </div>
+                                    <div class="form-group clearfix">
+                                        <button type="button"
+                                            class="form-wizard-next-btn anchor_link hvr-rectangle-out ">التالي</button>
+                                    </div>
+                                </fieldset>
+                                <fieldset class="wizard-fieldset delivery">
+                                    <div class="saved_address">
+                                        <h6> العناوين المحفوظة (3) </h6>
+                                        <div class="saved_address_item">
+                                            <label for="" class="active saved_address_item_label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                                                <input type="radio"  name="" id="">
+                                                <div class="saved_address_item_info ">
+                                                    <ul>
+                                                        <li class="saved_address_email">Yousry@gmail.com</li>
+                                                        <li class="saved_address_phone">0123456789</li>
+                                                        <li class="saved_address_region"> المنطقة : الرياض</li>
+                                                        <li class="saved_address_city"> المدينة : الحي الرابع </li>
+                                                        <li class="saved_address_post">الرمز البريدى : 125366</li>
+                                                    </ul>
+                                                    <div class="d-flex">
+                                                        <div class="flex-grow-1 ms-3">
+                                                            <h5>أحمد يسري </h5>
+                                                            <span>فيلا رقم 11 , الرياض , حى الروضة , الرياض , السعودية
+                                                                فيلا
+                                                                رقم 11 , الرياض , حى الروضة , الرياض , السعودية</span>
+                                                            <div class="action">
+                                                                <button><i class="fas fa-trash-alt"></i></button>
+                                                                <button type="button" data-bs-toggle="modal" data-bs-target="#editaddress" style="position: relative;z-index:999"><i class="fas fa-edit"></i></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                            <label for="" class=" saved_address_item_label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                                                <input type="radio" name="" id="">
+                                                <div class="saved_address_item_info">
+                                                    <ul>
+                                                        <li class="saved_address_email">Yousry@gmail.com</li>
+                                                        <li class="saved_address_phone">0123456789</li>
+                                                        <li class="saved_address_region"> المنطقة : الرياض</li>
+                                                        <li class="saved_address_city"> المدينة : الحي الرابع </li>
+                                                        <li class="saved_address_post">الرمز البريدى : 125366</li>
+                                                    </ul>
+                                                    <div class="d-flex">
+                                                        <div class="flex-grow-1 ms-3">
+                                                            <h5>أحمد يسري </h5>
+                                                            <span>فيلا رقم 11 , الرياض , حى الروضة , الرياض , السعودية
+                                                                فيلا
+                                                                رقم 11 , الرياض , حى الروضة , الرياض , السعودية</span>
+                                                            <div class="action">
+                                                                <button><i class="fas fa-trash-alt"></i></button>
+                                                                <button type="button" data-bs-toggle="modal" data-bs-target="#editaddress" style="position: relative;z-index:999"><i class="fas fa-edit"></i></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                            <button type="button" class="anchor_link w-100 hvr-rectangle-out"
+                                                data-bs-toggle="modal" data-bs-target="#addaddress"> اضافة
+                                                عنوان جديد </button>
+                                        </div>
+                                        <div class="notes">
+                                            <label for=""> اضافة ملاحظة </label>
+                                            <textarea name="" id="" placeholder="اكتب ملاحظة"></textarea>
+                                        </div>
+                                        <div class="delivery_comp">
+                                            <h5> شركات الشحن </h5>
+                                            <label for="" class="delivery-comp-label active wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                                                <input type="radio">
+                                                <div class="delivery_comp_item ">
+                                                    <div class="d-flex">
+                                                        <div class="flex-shrink-0">
+                                                            <img src="images/NoPat-Copy29.png" alt="delivery-comp">
+                                                        </div>
+                                                        <div class="flex-grow-1 ms-3">
+                                                            <h4>أرامكس</h4>
+                                                            <p>600 ر.س</p>
+                                                            <span>الجمعة 27 نوفمبر 2020</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </label>
+
+
+                                            <label for="" class="delivery-comp-label wow fadeInRight" data-wow-duration="0.74s" data-wow-delay="0.7s">
+                                                <input type="radio">
+                                                <div class="delivery_comp_item">
+                                                    <div class="d-flex">
+                                                        <div class="flex-shrink-0">
+                                                            <img src="images/NoPat-Copy29.png" alt="delivery-comp">
+                                                        </div>
+                                                        <div class="flex-grow-1 ms-3">
+                                                            <h4>أرامكس</h4>
+                                                            <p>600 ر.س</p>
+                                                            <span>الجمعة 27 نوفمبر 2020</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </label>
+
+                                            <label for="" class="delivery-comp-label wow fadeInRight" data-wow-duration="0.72s" data-wow-delay="0.7s">
+                                                <input type="radio">
+                                                <div class="delivery_comp_item">
+                                                    <div class="d-flex">
+                                                        <div class="flex-shrink-0">
+                                                            <img src="images/NoPat-Copy29.png" alt="delivery-comp">
+                                                        </div>
+                                                        <div class="flex-grow-1 ms-3">
+                                                            <h4>أرامكس</h4>
+                                                            <p>600 ر.س</p>
+                                                            <span>الجمعة 27 نوفمبر 2020</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                            <label for="" class="delivery-comp-label wow fadeInRight" data-wow-duration="0.72s" data-wow-delay="0.7s">
+                                                <input type="radio">
+                                                <div class="delivery_comp_item">
+                                                    <div class="d-flex">
+                                                        <div class="flex-shrink-0">
+                                                            <img src="images/NoPat-Copy29.png" alt="delivery-comp">
+                                                        </div>
+                                                        <div class="flex-grow-1 ms-3">
+                                                            <h4>أرامكس</h4>
+                                                            <p>600 ر.س</p>
+                                                            <span>الجمعة 27 نوفمبر 2020</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                            <label for="" class="delivery-comp-label wow fadeInRight" data-wow-duration="0.72s" data-wow-delay="0.7s">
+                                                <input type="radio">
+                                                <div class="delivery_comp_item">
+                                                    <div class="d-flex">
+                                                        <div class="flex-shrink-0">
+                                                            <img src="images/NoPat-Copy29.png" alt="delivery-comp">
+                                                        </div>
+                                                        <div class="flex-grow-1 ms-3">
+                                                            <h4>أرامكس</h4>
+                                                            <p>600 ر.س</p>
+                                                            <span>الجمعة 27 نوفمبر 2020</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                            <div class="cart_checkout_list wow fadeInRight" data-wow-duration="0.72s" data-wow-delay="0.7s">
+                                                <li>
+                                                    <span>ملخص الطلب </span>
+                                                    <span>عدد العناصر 5</span>
+                                                </li>
+                                                <li>
+                                                    <span>الاجمالى غير شامل الضريبة </span>
+                                                    <span>600 ر.س</span>
+                                                </li>
+                                                <li>
+                                                    <span>الخصم <span style="color:var(--primary-color)"> (10%) </span>
+                                                    </span>
+                                                    <span>600 ر.س</span>
+                                                </li>
+                                                <li>
+                                                    <span>الاجمالى غير شامل الضريبة </span>
+                                                    <span>600 ر.س</span>
+                                                </li>
+                                                <li>
+                                                    <span>قيمة الضريبة </span>
+                                                    <span>20 ر.س</span>
+                                                </li>
+                                                <li class="cart_checkout_total_price">
+                                                    <span>المجموع الكلى </span>
+                                                    <span>620 ر.س</span>
+                                                </li>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group clearfix">
+                                        <button type="button"
+                                            class="form-wizard-previous-btn anchor_link hvr-rectangle-out">السابق</button>
+                                        <button type="button"
+                                            class="form-wizard-next-btn anchor_link hvr-rectangle-out">التالي</button>
+                                    </div>
+                                </fieldset>
+                                <fieldset class="wizard-fieldset payment wow fadeInRight" data-wow-duration="0.72s" data-wow-delay="0.7s">
+                                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="pills-online-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-online" type="button" role="tab"
+                                                aria-controls="pills-online" aria-selected="true">
+                                                <img src="images/Visa_Logo.png" alt="">
+                                                <h2> visa </h2>
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link " id="pills-online-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-online" type="button" role="tab"
+                                                aria-controls="pills-online" aria-selected="true">
+                                                <img src="images/2560px-Apple_Pay_logo.svg.png" alt="">
+                                                <h2> Apple pay </h2>
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link " id="pills-online-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-online" type="button" role="tab"
+                                                aria-controls="pills-online" aria-selected="true">
+                                                <img src="images/kodskfgjei.png" alt="">
+                                                <h2> STC </h2>
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-cash-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-cash" type="button" role="tab"
+                                                aria-controls="pills-cash" aria-selected="false">
+                                                <img src="images/money.png" alt="">
+                                                <h2> نقدي </h2>
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-installment-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-installment" type="button" role="tab"
+                                                aria-controls="pills-installment" aria-selected="false">
+                                                <img src="images/1280px-Mada_Logo.svg.png" alt="">
+                                                <h2> مدى </h2>
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-installment-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-installment" type="button" role="tab"
+                                                aria-controls="pills-installment" aria-selected="false">
+                                                <img src="images/NoPathdd.png" alt="">
+                                                <h2> تمارا </h2>
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-installment-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-installment" type="button" role="tab"
+                                                aria-controls="pills-installment" aria-selected="false">
+                                                <img src="images/images.png" alt="">
+                                                <h2> توبي </h2>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade show active" id="pills-online" role="tabpanel"
+                                            aria-labelledby="pills-online-tab">
+                                            <span class=""> بيانات البطاقة </span>
+                                            <div class="row mt-3">
+                                                <div class="col-md-6">
+                                                    <input type="text" class="form-control"
+                                                        placeholder="الإسم على البطاقة">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <input type="num" class="form-control"
+                                                        placeholder="الرقم على البطاقة">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <input type="text" class="form-control" placeholder="CVV">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <input type="text" class="form-control"
+                                                        placeholder="تاريخ الانتهاء">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-cash" role="tabpanel"
+                                            aria-labelledby="pills-cash-tab">
+                                            <h5><i class="fas fa-exclamation"></i> سيتم إضافة <span> 50 ريال</span> على
+                                                الاجمالى رسوم في حالة الكاش </h5>
+                                            <div class="cart_checkout_list">
+                                                <li>
+                                                    <span>ملخص الطلب </span>
+                                                    <span>عدد العناصر 5</span>
+                                                </li>
+                                                <li>
+                                                    <span>الاجمالى غير شامل الضريبة </span>
+                                                    <span>600 ر.س</span>
+                                                </li>
+                                                <li>
+                                                    <span>الخصم <span style="color:var(--primary-color)"> (10%) </span>
+                                                    </span>
+                                                    <span>600 ر.س</span>
+                                                </li>
+                                                <li>
+                                                    <span>الاجمالى غير شامل الضريبة </span>
+                                                    <span>600 ر.س</span>
+                                                </li>
+                                                <li>
+                                                    <span>قيمة الضريبة </span>
+                                                    <span>20 ر.س</span>
+                                                </li>
+                                                <li class="cart_checkout_total_price">
+                                                    <span>المجموع الكلى </span>
+                                                    <span>620 ر.س</span>
+                                                </li>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-installment" role="tabpanel"
+                                            aria-labelledby="pills-installment-tab">
+                                            <div class="plan">
+                                                <h4> طريقة العمل </h4>
+                                                <a href=""> عرض المزيد </a>
+                                                <div class="d-flex mb-4">
+                                                    <div class="flex-shrink-0">
+                                                        <img src="images/Group-769.png" alt="...">
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <h6>ادخل معلوماتك</h6>
+                                                        <span>رقم الجوال , معلومات الهوية , للطلب الأول فقط و بيانات
+                                                            الدفع</span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex mb-4">
+                                                    <div class="flex-shrink-0">
+                                                        <img src="images/Group-769.png" alt="...">
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <h6>ادفع الدفعة الاولى</h6>
+                                                        <span>ادفع بسهولة بأى بطاقة بنكية او ابل باى لتأكيد طلبك</span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex mb-4">
+                                                    <div class="flex-shrink-0">
+                                                        <img src="images/Group-769.png" alt="...">
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <h6>ادفع بالطريقة المناسبة لك</h6>
+                                                        <span>ادفع باقى الدفعات خلال 60 يوم عبر تطبيق تمارا</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="plan plan_two">
+                                                <h4> خطة الدفع </h4>
+                                                <a href=""> اعرف أكثر </a>
+                                                <p>قسمها على 3 دفعات بدون فوائد</p>
+                                                <div class="stepwizard wow fadeIn" data-wow-duration="0.4s"
+                                                    data-wow-delay="0.4s">
+                                                    <div class="stepwizard-row setup-panel">
+                                                        <div class="stepwizard-step">
+                                                            <a href="" type="button"
+                                                                class="btn btn-primary btn-circle">1</a>
+                                                            <p>ادفع اليوم <br> 200 ر.س</p>
+                                                        </div>
+                                                        <div class="stepwizard-step">
+                                                            <a href="" type="button"
+                                                                class="btn btn-default btn-circle">2</a>
+                                                            <p> القسط الأول <br> 200 ر.س</p>
+                                                        </div>
+                                                        <div class="stepwizard-step">
+                                                            <a href="" type="button"
+                                                                class="btn btn-default btn-circle">3</a>
+                                                            <p> القسط الثاني <br> 200 ر.س</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group clearfix">
+                                        <button type="button"
+                                            class="form-wizard-previous-btn anchor_link hvr-rectangle-out">السابق</button>
+                                        <button type="button" class="form-wizard-submit anchor_link hvr-rectangle-out"
+                                            data-bs-toggle="modal" data-bs-target="#checkout">تأكيد
+                                            الطلب</button>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- end empty-cart -->
+
+
+<!-- start footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="footer_top">
+                    <img src="" alt="">
+                    <h3>Horra Hejab</h3>
+                    <p>سيتم كتابة شعار العلامة التجارية هنا</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-info">
+                    <h3>مهتمة يوصلك كل جديد؟</h3>
+                    <p>بإدخال بريدك الإلكتروني ، فإنك توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا.</p>
+                    <form action="">
+                        <input type="email" class="form-control" placeholder="البريد الألكتروني">
+                        <button type="submit"> ارسال </button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-info">
+                    <h3>تواصل معنا</h3>
+                    <ul class="list_anchor">
+                        <li>
+                            <a href="#">25 حى الدوار , الرياض , المملكة العربية السعودية</a>
+                        </li>
+                        <li>
+                            <a href="tel:0123456789">0123456789</a>
+                        </li>
+                        <li>
+                            <a href="mailto:Ahmedyousry@test.com"> Ahmedyousry@test.com </a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html"> تواصل معنا </a>
+                        </li>
+                        <li>
+                            <a href="about-us.html"> من نحن </a>
+                        </li>
+                    </ul>
+                    <ul class="social_media">
+                        <li>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-snapchat-ghost"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-info">
+                    <h3>السياسات</h3>
+                    <ul class="list_anchor">
+                        <li>
+                            <a href=""> سياسة الارجاع و الاتبدال </a>
+                        </li>
+                        <li>
+                            <a href=""> سياسة الخصوصية </a>
+                        </li>
+                        <li>
+                            <a href=""> الشروط و الاحكام </a>
+                        </li>
+                        <li>
+                            <a href=""> طرق الدفع </a>
+                        </li>
+                        <li>
+                            <a href=""> التوصيل </a>
+                        </li>
+                        <li>
+                            <a href=""> من نحن </a>
+                        </li>
+                        <li>
+                            <h6>توثيق معروق</h6>
+                            <p> 12355488 </p>
+                            <img src="images/dc8679b8b0f772d44f289e67e6d091c9.png" alt="maroof">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-info">
+                    <h3>روابط هامة</h3>
+                    <ul class="list_anchor">
+                        <li>
+                            <a href=""> حسابى </a>
+                        </li>
+                        <li>
+                            <a href=""> رغباتى </a>
+                        </li>
+                        <li>
+                            <a href=""> الأسئلة الشائعة </a>
+                        </li>
+                        <li>
+                            <a href="">جدول المقاسات </a>
+                        </li>
+                        <li>
+                            <h6>السجل الضريبى</h6>
+                            <p> 12355488 </p>
+                            <img src="images/1200px-QR_code_for_mobile_English_Wikipedia.svg.png" alt="maroof">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <p> جميع الحقوق محفوظة لدى &copy; حوراء </p>
+        <img src="images/Group-1211.png" alt="payment">
+    </div>
+</footer>
+<!-- end footer -->
+
+
+
+<!-- start modal code phone -->
+<div class="modal fade" id="checkout" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h5 class="modal-title" id="exampleModalLabel"> تأكيد طلبك </h5>
+            </div>
+            <div class="modal-body">
+                <p> شكرا لاستخدامك حوراء ,
+                    تم تأكيد طلبك بنجاح</p>
+                <div class="form_auth code-vertification">
+                    <a href="" class="anchor_link hvr-rectangle-out"> طلباتي </a>
+                    <button type="button" class="btn anchor_link close" data-bs-dismiss="modal">اغلاق</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end modal code phone -->
+
+<!-- Modal add address -->
+<div class="modal fade" id="addaddress" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">اضافة عنوان جديد</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form_auth">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-group flex-nowrap form-floating mb-3">
+                                            <span class="input-group-text" id="addon-wrapping"> <img
+                                                    src="images/about.png" alt=""> </span>
+                                            <input type="tel" class="form-control" placeholder="Username"
+                                                aria-label="Username" aria-describedby="addon-wrapping" name="username"
+                                                id="username">
+                                            <label for="floatingPassword"> اسم المستلم </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group flex-nowrap form-floating mb-3">
+                                            <span class="input-group-text" id="addon-wrapping"> <img
+                                                    src="images/packet.png" alt=""> </span>
+                                            <input type="tel" class="form-control" placeholder="post-email"
+                                                aria-label="post-email" aria-describedby="addon-wrapping"
+                                                name="post-email" id="post-email">
+                                            <label for="floatingPassword"> الرمز البريدي </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group flex-nowrap form-floating mb-3">
+                                            <span class="input-group-text" id="addon-wrapping"> <img
+                                                    src="images/packet.png" alt=""> </span>
+                                            <input type="tel" class="form-control" placeholder="email"
+                                                aria-label="email" aria-describedby="addon-wrapping" name="email"
+                                                id="email">
+                                            <label for="floatingPassword"> البريد الألكتروني </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group flex-nowrap form-floating mb-3 phone-number">
+                                            <span class="input-group-text" id="addon-wrapping"> <img
+                                                    src="images/Mask-Group-24.png" alt=""> </span>
+                                            <input type="tel" class="form-control" placeholder="phone"
+                                                aria-label="phone" aria-describedby="addon-wrapping" name="phone"
+                                                id="phone">
+                                            <label for="floatingPassword">رقم الجوال </label>
+                                            <span class="input-group-text code-phone" id="addon-wrapping">+995</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected disabled>منطقة</option>
+                                            <option value="1">منطقة 1</option>
+                                            <option value="2">منطقة 2</option>
+                                            <option value="3">منطقة 3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected disabled>مدينة</option>
+                                            <option value="1">مدينة 1</option>
+                                            <option value="2">مدينة 2</option>
+                                            <option value="3">مدينة 3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected disabled>حي</option>
+                                            <option value="1">حي 1</option>
+                                            <option value="2">حي 2</option>
+                                            <option value="3">حي 3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-m">
+                                        <div class="input-group flex-nowrap form-floating mb-3 textarea">
+                                            <span class="input-group-text" id="addon-wrapping"> <img
+                                                    src="images/comment-dots-solid.png" alt=""> </span>
+                                            <textarea class="form-control" placeholder="message" id="floatingTextarea2"
+                                                style="height: 100px"></textarea>
+                                            <label for="floatingTextarea2"> الرسالة </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="map">
+                            <h3> العنوان على الخريطة </h3>
+                            <p> الرياض , الحى السابع , مسجد عباد الرحمن </p>
+                            <div class="ratio ratio-16x9">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d927755.0519899436!2d46.262027123739045!3d24.72539808840737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2seg!4v1657282815810!5m2!1sen!2seg"
+                                    style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <button type="button" class="anchor_link hvr-rectangle-out w-100 mt-3"> حفظ
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal edit address -->
+<div class="modal fade" id="editaddress" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"> تعديل العنوان </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form_auth">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-group flex-nowrap form-floating mb-3">
+                                            <span class="input-group-text" id="addon-wrapping"> <img
+                                                    src="images/about.png" alt=""> </span>
+                                            <input type="tel" class="form-control" placeholder="Username"
+                                                aria-label="Username" aria-describedby="addon-wrapping" name="username"
+                                                id="username" value="ahmed">
+                                            <label for="username"> اسم المستلم </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group flex-nowrap form-floating mb-3">
+                                            <span class="input-group-text" id="addon-wrapping"> <img
+                                                    src="images/packet.png" alt=""> </span>
+                                            <input type="tel" class="form-control" placeholder="post-email"
+                                                aria-label="post-email" aria-describedby="addon-wrapping"
+                                                name="post-email" id="post-email" value="bla bla">
+                                            <label for="post-email"> الرمز البريدي </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group flex-nowrap form-floating mb-3">
+                                            <span class="input-group-text" id="addon-wrapping"> <img
+                                                    src="images/packet.png" alt=""> </span>
+                                            <input type="tel" class="form-control" placeholder="email"
+                                                aria-label="email" aria-describedby="addon-wrapping" name="email"
+                                                id="email" value="email">
+                                            <label for="email"> البريد الألكتروني </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group flex-nowrap form-floating mb-3 phone-number">
+                                            <span class="input-group-text" id="addon-wrapping"> <img
+                                                    src="images/Mask-Group-24.png" alt=""> </span>
+                                            <input type="tel" class="form-control" placeholder="phone"
+                                                aria-label="phone" aria-describedby="addon-wrapping" name="phone"
+                                                id="phone" value="0123456789">
+                                            <label for="phone">رقم الجوال </label>
+                                            <span class="input-group-text code-phone" id="addon-wrapping">+995</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected disabled>منطقة</option>
+                                            <option value="1">منطقة 1</option>
+                                            <option value="2">منطقة 2</option>
+                                            <option value="3">منطقة 3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected disabled>مدينة</option>
+                                            <option value="1">مدينة 1</option>
+                                            <option value="2">مدينة 2</option>
+                                            <option value="3">مدينة 3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected disabled>حي</option>
+                                            <option value="1">حي 1</option>
+                                            <option value="2">حي 2</option>
+                                            <option value="3">حي 3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-m">
+                                        <div class="input-group flex-nowrap form-floating mb-3 textarea">
+                                            <span class="input-group-text" id="addon-wrapping"> <img
+                                                    src="images/comment-dots-solid.png" alt=""> </span>
+                                            <textarea class="form-control" placeholder="message" id="floatingTextarea2"
+                                                style="height: 100px"></textarea>
+                                            <label for="floatingTextarea2"> الرسالة </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="map">
+                            <h3> العنوان على الخريطة </h3>
+                            <p> الرياض , الحى السابع , مسجد عباد الرحمن </p>
+                            <div class="ratio ratio-16x9">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d927755.0519899436!2d46.262027123739045!3d24.72539808840737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2seg!4v1657282815810!5m2!1sen!2seg"
+                                    style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <button type="button" class="anchor_link hvr-rectangle-out w-100 mt-3"> حفظ
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/all.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    jQuery(document).ready(function () {
+        // click on next button
+        jQuery('.form-wizard-next-btn').click(function () {
+            var parentFieldset = jQuery(this).parents('.wizard-fieldset');
+            var currentActiveStep = jQuery(this).parents('.form-wizard').find('.form-wizard-steps .active');
+            var next = jQuery(this);
+            var nextWizardStep = true;
+            parentFieldset.find('.wizard-required').each(function () {
+                var thisValue = jQuery(this).val();
+
+                if (thisValue == "") {
+                    jQuery(this).siblings(".wizard-form-error").slideDown();
+                    nextWizardStep = false;
+                }
+                else {
+                    jQuery(this).siblings(".wizard-form-error").slideUp();
+                }
+            });
+            if (nextWizardStep) {
+                next.parents('.wizard-fieldset').removeClass("show", "400");
+                currentActiveStep.removeClass('active').addClass('activated').next().addClass('active', "400");
+                next.parents('.wizard-fieldset').next('.wizard-fieldset').addClass("show", "400");
+                jQuery(document).find('.wizard-fieldset').each(function () {
+                    if (jQuery(this).hasClass('show')) {
+                        var formAtrr = jQuery(this).attr('data-tab-content');
+                        jQuery(document).find('.form-wizard-steps .form-wizard-step-item').each(function () {
+                            if (jQuery(this).attr('data-attr') == formAtrr) {
+                                jQuery(this).addClass('active');
+                                var innerWidth = jQuery(this).innerWidth();
+                                var position = jQuery(this).position();
+                                jQuery(document).find('.form-wizard-step-move').css({ "left": position.left, "width": innerWidth });
+                            } else {
+                                jQuery(this).removeClass('active');
+                            }
+                        });
+                    }
+                });
+            }
+        });
+        //click on previous button
+        jQuery('.form-wizard-previous-btn').click(function () {
+            var counter = parseInt(jQuery(".wizard-counter").text());;
+            var prev = jQuery(this);
+            var currentActiveStep = jQuery(this).parents('.form-wizard').find('.form-wizard-steps .active');
+            prev.parents('.wizard-fieldset').removeClass("show", "400");
+            prev.parents('.wizard-fieldset').prev('.wizard-fieldset').addClass("show", "400");
+            currentActiveStep.removeClass('active').prev().removeClass('activated').addClass('active', "400");
+            jQuery(document).find('.wizard-fieldset').each(function () {
+                if (jQuery(this).hasClass('show')) {
+                    var formAtrr = jQuery(this).attr('data-tab-content');
+                    jQuery(document).find('.form-wizard-steps .form-wizard-step-item').each(function () {
+                        if (jQuery(this).attr('data-attr') == formAtrr) {
+                            jQuery(this).addClass('active');
+                            var innerWidth = jQuery(this).innerWidth();
+                            var position = jQuery(this).position();
+                            jQuery(document).find('.form-wizard-step-move').css({ "left": position.left, "width": innerWidth });
+                        } else {
+                            jQuery(this).removeClass('active');
+                        }
+                    });
+                }
+            });
+        });
+        //click on form submit button
+        jQuery(document).on("click", ".form-wizard .form-wizard-submit", function () {
+            var parentFieldset = jQuery(this).parents('.wizard-fieldset');
+            var currentActiveStep = jQuery(this).parents('.form-wizard').find('.form-wizard-steps .active');
+            parentFieldset.find('.wizard-required').each(function () {
+                var thisValue = jQuery(this).val();
+                if (thisValue == "") {
+                    jQuery(this).siblings(".wizard-form-error").slideDown();
+                }
+                else {
+                    jQuery(this).siblings(".wizard-form-error").slideUp();
+                }
+            });
+        });
+        // focus on input field check empty or not
+        jQuery(".form-control").on('focus', function () {
+            var tmpThis = jQuery(this).val();
+            if (tmpThis == '') {
+                jQuery(this).parent().addClass("focus-input");
+            }
+            else if (tmpThis != '') {
+                jQuery(this).parent().addClass("focus-input");
+            }
+        }).on('blur', function () {
+            var tmpThis = jQuery(this).val();
+            if (tmpThis == '') {
+                jQuery(this).parent().removeClass("focus-input");
+                jQuery(this).siblings('.wizard-form-error').slideDown("3000");
+            }
+            else if (tmpThis != '') {
+                jQuery(this).parent().addClass("focus-input");
+                jQuery(this).siblings('.wizard-form-error').slideUp("3000");
+            }
+        });
+    });
+
+
+    //عشان تغير زرار الاكتيف على السايذ فالموديل
+    $(".delivery-comp-label").click(function () {
+        $('.delivery-comp-label.active').not(this).removeClass('active');
+        $(this).toggleClass('active');
+    })
+
+    //عشان تغير زرار الاكتيف على السايذ فالموديل
+    $(".saved_address_item_label").click(function () {
+        $('.saved_address_item_label.active').not(this).removeClass('active');
+        $(this).toggleClass('active');
+    })
+    
+</script>
+
+</body>
+
+</html>

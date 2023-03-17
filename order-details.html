@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <title>3bayat zharaa</title>
+</head>
+
+<!-- start top navbar -->
+<section class="top-navbar">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="top-navbar-option">
+                    <ul>
+                        <li>
+                            <div class="btns-auth">
+                                <a href="signup.html"> إنشاء حساب </a>
+                                <a href="login.html"> تسجيل دخول </a>
+                            </div>
+                        </li>
+                        <li class="search-item">
+                            <div class="search-box">
+                                <form action="">
+                                    <button class="btn-search"><i class="fas fa-search"></i></button>
+                                    <input type="text" class="input-search" placeholder="بحث">
+                                </form>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="choose-lang">
+                                <button> العربية </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end top navbar -->
+
+
+<!-- start navbar -->
+<nav class='navbar navbar-expand-lg navbar-light'>
+    <div class='container'>
+        <a class='navbar-brand text-white' href='index.html'>Logo</a>
+        <button class='btn navbar-toggler' type='button' data-bs-toggle='offcanvas' data-bs-target='#offcanvasExample'
+            aria-controls='offcanvasExample'>
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class='offcanvas offcanvas-start-lg' tabindex='-1' id='offcanvasExample'
+            aria-labelledby='offcanvasExampleLabel'>
+            <div class='offcanvas-header d-flex d-lg-none'>
+                <h5 class='offcanvas-title text-white' id='offcanvasExampleLabel'>Navbar</h5>
+                <a href='javascript:void(0) ' class='text-reset p-0' data-bs-dismiss='offcanvas' aria-label='close'>
+                    <i class="fas fa-times"></i>
+                </a>
+            </div>
+            <div class='offcanvas-body p-lg-0'>
+                <ul class='navbar-nav'>
+                    <li class='nav-item'>
+                        <a class='nav-link active' aria-current='page' href='index.html'>الرئيسية</a>
+                    </li>
+                    <li class="nav-item dropdown megamenu"><a id="megamneu" href="" type="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            class="nav-link dropdown-toggle font-weight-bold text-uppercase">الأقسام</a>
+                        <div aria-labelledby="megamneu" class="dropdown-menu megamenu-dropdown border-0 p-0 m-0">
+                            <div class="container">
+                                <div class="row bg-white rounded-0 m-0 shadow-sm">
+                                    <div class="col-12">
+                                        <div class="p-4">
+                                            <div class="row">
+                                                <div class="col-lg-6 mb-4 ">
+                                                    <ul class="list-unstyled text-end">
+                                                        <li class="nav-item"><a href=""
+                                                                class="nav-link text-small pb-0">عبايات</a></li>
+                                                        <li class="nav-item"><a href="store.html"          
+                                                                class="nav-link text-small pb-0 ">أكسسوارات</a></li>
+                                                        <li class="nav-item"><a href="store.html"
+                                                                class="nav-link text-small pb-0 ">عطور</a></li>
+                                                        <li class="nav-item"><a href="store.html"
+                                                                class="nav-link text-small pb-0 ">طرح</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 mb-4 ">
+                                                    <ul class="list-unstyled text-end">
+                                                        <li class="nav-item"><a href=""
+                                                                class="nav-link text-small pb-0">عبايات</a></li>
+                                                        <li class="nav-item"><a href="store.html"
+                                                                class="nav-link text-small pb-0 ">أكسسوارات</a></li>
+                                                        <li class="nav-item"><a href="store.html"
+                                                                class="nav-link text-small pb-0 ">عطور</a></li>
+                                                        <li class="nav-item"><a href="store.html"
+                                                                class="nav-link text-small pb-0 ">طرح</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' aria-current='page' href='stores.html'>المتاجر المشتركة</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' aria-current='page' href='about-us.html'>من نحن</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' aria-current='page' href='as-store.html'>سجل كـتاجر</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' aria-current='page' href='contact-us.html'>تواصل معنا</a>
+                    </li>
+
+                </ul>
+                <ul class='navbar-nav-icons'>
+                    <li class='nav-item '>
+                        <a class='nav-link' aria-current='page' href='favourite.html'> <i class="fas fa-heart"></i> </a>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">
+                            9
+                        </span>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' aria-current='page' href='notification.html'> <i class="fas fa-bell"></i> </a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' aria-current='page' href='cart.html'> <i class="fas fa-cart-plus"></i> </a>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">
+                            20
+                        </span>
+                    </li>
+                    <li class='nav-item'>
+                        <div class="dropdown profile-dropdown">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-user"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="orders.html"> <img src="images/Group-946.png" alt=""> طلباتي
+                                    </a></li>
+                                <li><a class="dropdown-item" href="address.html"> <img src="images/Group-941.png" alt=""> دفتر
+                                        العناوين </a></li>
+                                <li><a class="dropdown-item" href="offers.html"><img src="images/Group-942.png" alt=""> العروض</a></li>
+                                <li><a class="dropdown-item" href="returns.html"> <img src="images/Group-429.png" alt=""> المسترجعات</a></li>
+                                <li><a class="dropdown-item" href="#"> <img src="images/Group-944.png" alt=""> نقاط الولاء</a></li>
+                                <li><a class="dropdown-item" href="setting.html"> <img src="images/Group-432.png" alt=""> الاعدادات</a></li>
+                                <button type="submit">تسجيل الخروج</button>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- end navbar -->
+
+<!-- start order-details -->
+<div class="order-details orders">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_title wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                    <h2 class=""> طلباتي </h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
+                            <li class="breadcrumb-item"><a href="orders.html">طلباتي</a></li>
+                            <li class="breadcrumb-item"><a> جديد </a></li>
+                            <li class="breadcrumb-item active" aria-current="page">#767868</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="order-details-item">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="orders-products table-responsive wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.8s">
+                                <table class="table table-hover ">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col"> المنتجات (3) </th>
+                                            <th scope="col">السعر</th>
+                                            <th scope="col">الكمية</th>
+                                            <th scope="col">الأجمالي</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <div class="flex-shrink-0">
+                                                        <img src="images/product-1.png" alt="product-order"
+                                                            height="100px" width="100px">
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+                                                            العميل ليتصور طريقه
+                                                        </p>
+                                                        <div class="order-size">
+                                                            <span>black ,</span>
+                                                            <span>XL</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <p> 250 ر.س </p>
+                                                <p class="deleted"> 100 ر.س </p>
+                                            </td>
+                                            <td>4</td>
+                                            <td>800 ر.س</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <div class="flex-shrink-0">
+                                                        <img src="images/product-1.png" alt="product-order"
+                                                            height="100px" width="100px">
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+                                                            العميل ليتصور طريقه
+                                                        </p>
+                                                        <div class="order-size">
+                                                            <span>black ,</span>
+                                                            <span>XL</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <p> 250 ر.س </p>
+                                                <p class="deleted"> 100 ر.س </p>
+                                            </td>
+                                            <td>4</td>
+                                            <td>800 ر.س</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <div class="flex-shrink-0">
+                                                        <img src="images/product-1.png" alt="product-order"
+                                                            height="100px" width="100px">
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+                                                            العميل ليتصور طريقه
+                                                        </p>
+                                                        <div class="order-size">
+                                                            <span>black ,</span>
+                                                            <span>XL</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <p> 250 ر.س </p>
+                                                <p class="deleted"> 100 ر.س </p>
+                                            </td>
+                                            <td>4</td>
+                                            <td>800 ر.س</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="orders-price-info wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.7s">
+                                <div class="order-status">
+                                    <ul>
+                                        <li>
+                                            <span> الحالة </span>
+                                            <span> جديد </span>
+                                        </li>
+                                        <li>
+                                            <span> رقم الطلب </span>
+                                            <span> #97868768 </span>
+                                        </li>
+                                        <li>
+                                            <span> طريقة الدفع </span>
+                                            <span> نقدي </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="order-desc">
+                                    <h6> ملخص الطلب </h6>
+                                    <ul>
+                                        <li>
+                                            <span> عدد العناصر </span>
+                                            <span> 3 </span>
+                                        </li>
+                                        <li>
+                                            <span> الأجمالي غير شامل الضريبة </span>
+                                            <span> 600 ر.س </span>
+                                        </li>
+                                        <li>
+                                            <span> الخصم (10%) </span>
+                                            <span> 20 ر.س </span>
+                                        </li>
+                                        <li>
+                                            <span> التوصيل </span>
+                                            <span> 20 ر.س </span>
+                                        </li>
+                                        <li>
+                                            <span> الضريبة </span>
+                                            <span> 20 ر.س </span>
+                                        </li>
+                                    </ul>
+                                    <div class="order-total-price">
+                                        <span> المجموع </span>
+                                        <span> 700 ر.س </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end order details -->
+
+
+<!-- start footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="footer_top">
+                    <img src="" alt="">
+                    <h3>Horra Hejab</h3>
+                    <p>سيتم كتابة شعار العلامة التجارية هنا</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-info">
+                    <h3>مهتمة يوصلك كل جديد؟</h3>
+                    <p>بإدخال بريدك الإلكتروني ، فإنك توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا.</p>
+                    <form action="">
+                        <input type="email" class="form-control" placeholder="البريد الألكتروني">
+                        <button type="submit"> ارسال </button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-info">
+                    <h3>تواصل معنا</h3>
+                    <ul class="list_anchor">
+                        <li>
+                            <a href="#">25 حى الدوار , الرياض , المملكة العربية السعودية</a>
+                        </li>
+                        <li>
+                            <a href="tel:0123456789">0123456789</a>
+                        </li>
+                        <li>
+                            <a href="mailto:Ahmedyousry@test.com"> Ahmedyousry@test.com </a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html"> تواصل معنا </a>
+                        </li>
+                        <li>
+                            <a href="about-us.html"> من نحن </a>
+                        </li>
+                    </ul>
+                    <ul class="social_media">
+                        <li>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-snapchat-ghost"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-info">
+                    <h3>السياسات</h3>
+                    <ul class="list_anchor">
+                        <li>
+                            <a href=""> سياسة الارجاع و الاتبدال </a>
+                        </li>
+                        <li>
+                            <a href=""> سياسة الخصوصية </a>
+                        </li>
+                        <li>
+                            <a href=""> الشروط و الاحكام </a>
+                        </li>
+                        <li>
+                            <a href=""> طرق الدفع </a>
+                        </li>
+                        <li>
+                            <a href=""> التوصيل </a>
+                        </li>
+                        <li>
+                            <a href=""> من نحن </a>
+                        </li>
+                        <li>
+                            <h6>توثيق معروق</h6>
+                            <p> 12355488 </p>
+                            <img src="images/dc8679b8b0f772d44f289e67e6d091c9.png" alt="maroof">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-info">
+                    <h3>روابط هامة</h3>
+                    <ul class="list_anchor">
+                        <li>
+                            <a href=""> حسابى </a>
+                        </li>
+                        <li>
+                            <a href=""> رغباتى </a>
+                        </li>
+                        <li>
+                            <a href=""> الأسئلة الشائعة </a>
+                        </li>
+                        <li>
+                            <a href="">جدول المقاسات </a>
+                        </li>
+                        <li>
+                            <h6>السجل الضريبى</h6>
+                            <p> 12355488 </p>
+                            <img src="images/1200px-QR_code_for_mobile_English_Wikipedia.svg.png" alt="maroof">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <p> جميع الحقوق محفوظة لدى &copy; حوراء </p>
+        <img src="images/Group-1211.png" alt="payment">
+    </div>
+</footer>
+<!-- end footer -->
+
+
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/all.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>

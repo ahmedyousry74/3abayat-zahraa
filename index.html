@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <title>3bayat zharaa</title>
+</head>
+
+<!-- start top navbar -->
+<section class="top-navbar">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="top-navbar-option">
+                    <ul>
+                        <li>
+                            <div class="btns-auth">
+                                <a href="signup.html"> إنشاء حساب </a>
+                                <a href="login.html"> تسجيل دخول </a>
+                            </div>
+                        </li>
+                        <li class="search-item">
+                            <div class="search-box">
+                                <form action="">
+                                    <button class="btn-search"><i class="fas fa-search"></i></button>
+                                    <input type="text" class="input-search" placeholder="بحث">
+                                </form>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="choose-lang">
+                                <button> العربية </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end top navbar -->
+
+
+<!-- start navbar -->
+<nav class='navbar navbar-expand-lg navbar-light'>
+    <div class='container'>
+        <a class='navbar-brand text-white' href='index.html'>Logo</a>
+        <button class='btn navbar-toggler' type='button' data-bs-toggle='offcanvas' data-bs-target='#offcanvasExample'
+            aria-controls='offcanvasExample'>
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class='offcanvas offcanvas-start-lg' tabindex='-1' id='offcanvasExample'
+            aria-labelledby='offcanvasExampleLabel'>
+            <div class='offcanvas-header d-flex d-lg-none'>
+                <h5 class='offcanvas-title text-white' id='offcanvasExampleLabel'>Navbar</h5>
+                <a href='javascript:void(0) ' class='text-reset p-0' data-bs-dismiss='offcanvas' aria-label='close'>
+                    <i class="fas fa-times"></i>
+                </a>
+            </div>
+            <div class='offcanvas-body p-lg-0'>
+                <ul class='navbar-nav'>
+                    <li class='nav-item'>
+                        <a class='nav-link active' aria-current='page' href='index.html'>الرئيسية</a>
+                    </li>
+                    <li class="nav-item dropdown megamenu"><a id="megamneu" href="" type="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            class="nav-link dropdown-toggle font-weight-bold text-uppercase">الأقسام</a>
+                        <div aria-labelledby="megamneu" class="dropdown-menu megamenu-dropdown border-0 p-0 m-0">
+                            <div class="container">
+                                <div class="row bg-white rounded-0 m-0 shadow-sm">
+                                    <div class="col-12">
+                                        <div class="p-4">
+                                            <div class="row">
+                                                <div class="col-lg-6 mb-4 ">
+                                                    <ul class="list-unstyled text-end">
+                                                        <li class="nav-item"><a href=""
+                                                                class="nav-link text-small pb-0">عبايات</a></li>
+                                                        <li class="nav-item"><a href="store.html"          
+                                                                class="nav-link text-small pb-0 ">أكسسوارات</a></li>
+                                                        <li class="nav-item"><a href="store.html"
+                                                                class="nav-link text-small pb-0 ">عطور</a></li>
+                                                        <li class="nav-item"><a href="store.html"
+                                                                class="nav-link text-small pb-0 ">طرح</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6 mb-4 ">
+                                                    <ul class="list-unstyled text-end">
+                                                        <li class="nav-item"><a href=""
+                                                                class="nav-link text-small pb-0">عبايات</a></li>
+                                                        <li class="nav-item"><a href="store.html"
+                                                                class="nav-link text-small pb-0 ">أكسسوارات</a></li>
+                                                        <li class="nav-item"><a href="store.html"
+                                                                class="nav-link text-small pb-0 ">عطور</a></li>
+                                                        <li class="nav-item"><a href="store.html"
+                                                                class="nav-link text-small pb-0 ">طرح</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' aria-current='page' href='stores.html'>المتاجر المشتركة</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' aria-current='page' href='about-us.html'>من نحن</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' aria-current='page' href='as-store.html'>سجل كـتاجر</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' aria-current='page' href='contact-us.html'>تواصل معنا</a>
+                    </li>
+
+                </ul>
+                <ul class='navbar-nav-icons'>
+                    <li class='nav-item '>
+                        <a class='nav-link' aria-current='page' href='favourite.html'> <i class="fas fa-heart"></i> </a>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">
+                            9
+                        </span>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link dropdown-toggle' aria-current='page' href='#'  type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> <i class="fas fa-bell"></i> </a>
+                        <ul class="dropdown-menu notification-menu" aria-labelledby="dropdownMenuButton1">
+                            <h6> الأشعارات </h6>
+                            <li>
+                                هذا النص هو مثال لنص يمكن أن يستبدل
+                                <p> 27-11-2020 </p>
+                            </li>
+                            <li>
+                                هذا النص هو مثال لنص يمكن أن يستبدل
+                                <p> 27-11-2020 </p>
+                            </li>
+                            <li>
+                                هذا النص هو مثال لنص يمكن أن يستبدل
+                                <p> 27-11-2020 </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' aria-current='page' href='cart.html'> <i class="fas fa-cart-plus"></i> </a>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">
+                            20
+                        </span>
+                    </li>
+                    <li class='nav-item'>
+                        <div class="dropdown profile-dropdown">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-user"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="orders.html"> <img src="images/Group-946.png" alt=""> طلباتي
+                                    </a></li>
+                                <li><a class="dropdown-item" href="address.html"> <img src="images/Group-941.png" alt=""> دفتر
+                                        العناوين </a></li>
+                                <li><a class="dropdown-item" href="offers.html"><img src="images/Group-942.png" alt=""> العروض</a></li>
+                                <li><a class="dropdown-item" href="returns.html"> <img src="images/Group-429.png" alt=""> المسترجعات</a></li>
+                                <li><a class="dropdown-item" href="#"> <img src="images/Group-944.png" alt=""> نقاط الولاء</a></li>
+                                <li><a class="dropdown-item" href="setting.html"> <img src="images/Group-432.png" alt=""> الاعدادات</a></li>
+                                <button type="submit">تسجيل الخروج</button>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- end navbar -->
+
+<!-- start carousal -->
+<section id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/Group-1609.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="images/Group-1609.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="images/Group-1609.png" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</section>
+<!-- end carousal -->
+
+<!-- start categries -->
+<div class="categories">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_title">
+                    <h2 class=""> الأقسام </h2>
+                </div>
+            </div>
+        </div>
+        <div class="owl-carousel owl-theme owl-categories">
+            <a href="category.html">
+                <div class="categories-item">
+                    <img src="images/NoPath - Copy (17).png" alt="categories">
+                    <p> عطور </p>
+                </div>
+            </a>
+            <a href="category.html">
+                <div class="categories-item">
+                    <img src="images/NoPath - Copy (17).png" alt="categories">
+                    <p> عطور </p>
+                </div>
+            </a>
+            <a href="category.html">
+                <div class="categories-item">
+                    <img src="images/NoPath - Copy (17).png" alt="categories">
+                    <p> عطور </p>
+                </div>
+            </a>
+            <a href="category.html">
+                <div class="categories-item">
+                    <img src="images/NoPath - Copy (17).png" alt="categories">
+                    <p> عطور </p>
+                </div>
+            </a>
+            <a href="category.html">
+                <div class="categories-item">
+                    <img src="images/NoPath - Copy (17).png" alt="categories">
+                    <p> عطور </p>
+                </div>
+            </a>
+            <a href="category.html">
+                <div class="categories-item">
+                    <img src="images/NoPath - Copy (17).png" alt="categories">
+                    <p> عطور </p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- end categries -->
+
+<!-- start our stores -->
+<div class="stores">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_title">
+                    <h2 class=""> المتاجر المشتركة </h2>
+                </div>
+            </div>
+        </div>
+        <div class="our_stores">
+            <div class="our_stores_info wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <img src="images/Image-28.png" alt="store">
+                <a href="store.html"> عبايات حوراء </a>
+            </div>
+            <div class="our_stores_info wow fadeInRight" data-wow-duration="0.71s" data-wow-delay="0.52s">
+                <img src="images/Capture-store.png" alt="store">
+                <a href="store.html"> عبايات حوراء </a>
+            </div>
+            <div class="our_stores_info wow fadeInRight" data-wow-duration="0.72s" data-wow-delay="0.54s">
+                <img src="images/Capture-store2.png" alt="store">
+                <a href="store.html"> عبايات حوراء </a>
+            </div>
+            <div class="our_stores_info wow fadeInRight" data-wow-duration="0.73s" data-wow-delay="0.56s">
+                <img src="images/NoPath-Copy-(3).png" alt="store">
+                <a href="store.html"> عبايات حوراء </a>
+            </div>
+            <div class="our_stores_info wow fadeInRight" data-wow-duration="0.75s" data-wow-delay="0.59s">
+                <img src="images/Image-28.png" alt="store">
+                <a href="store.html"> عبايات حوراء </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end our stores -->
+
+<!-- start product-ramadan -->
+<div class="product-ramadan">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_title">
+                    <h2 class=""> منتجات رمضان </h2>
+                </div>
+            </div>
+        </div>
+        <div class="our_products_ramadan">
+            <div class="our_products_ramadan_info wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <img src="images/product-1.png" alt="store">
+                <a href="#"> عبايات حوراء </a>
+            </div>
+            <div class="our_products_ramadan_info wow fadeInRight" data-wow-duration="0.71s" data-wow-delay="0.51s">
+                <img src="images/product-2.png" alt="store">
+                <a href="#"> عبايات حوراء </a>
+            </div>
+            <div class="our_products_ramadan_info wow fadeInRight" data-wow-duration="0.72s" data-wow-delay="0.52s">
+                <img src="images/product-3.png" alt="store">
+                <a href="#"> عبايات حوراء </a>
+            </div>
+            <div class="our_products_ramadan_info wow fadeInRight" data-wow-duration="0.73s" data-wow-delay="0.53s">
+                <img src="images/product-1.png" alt="store">
+                <a href="#"> عبايات حوراء </a>
+            </div>
+            <div class="our_products_ramadan_info wow fadeInRight" data-wow-duration="0.74s" data-wow-delay="0.54s">
+                <img src="images/product-2.png" alt="store">
+                <a href="#"> عبايات حوراء </a>
+            </div>
+            <div class="our_products_ramadan_info wow fadeInRight" data-wow-duration="0.75s" data-wow-delay="0.55s">
+                <img src="images/product-3.png" alt="store">
+                <a href="#"> عبايات حوراء </a>
+            </div>
+            <div class="our_products_ramadan_info wow fadeInRight" data-wow-duration="0.76s" data-wow-delay="0.56s">
+                <img src="images/product-1.png" alt="store">
+                <a href="#"> عبايات حوراء </a>
+            </div>
+            <div class="our_products_ramadan_info wow fadeInRight" data-wow-duration="0.77s" data-wow-delay="0.57s">
+                <img src="images/product-2.png" alt="store">
+                <a href="#"> عبايات حوراء </a>
+            </div>
+            <div class="our_products_ramadan_info wow fadeInRight" data-wow-duration="0.78s" data-wow-delay="0.58s">
+                <img src="images/product-3.png" alt="store">
+                <a href="#"> عبايات حوراء </a>
+            </div>
+            <div class="our_products_ramadan_info wow fadeInRight" data-wow-duration="0.79s" data-wow-delay="0.59s">
+                <img src="images/product-1.png" alt="store">
+                <a href="#"> عبايات حوراء </a>
+            </div>
+            <div class="our_products_ramadan_info wow fadeInRight" data-wow-duration="0.79s" data-wow-delay="0.59s">
+                <img src="images/product-2.png" alt="store">
+                <a href="#"> عبايات حوراء </a>
+            </div>
+            <div class="our_products_ramadan_info wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                <img src="images/product-3.png" alt="store">
+                <a href="#"> عبايات حوراء </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end product-ramadan -->
+
+<!-- start one-ads -->
+<div class="ads ads_one">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="ads_one_info wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <h3> خصم يصل إلى <br> 20% </h3>
+                    <a href=""> تسوق </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="ads_one_info last-add wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <h3> خصم يصل إلى <br> 20% </h3>
+                    <a href=""> تسوق </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end one-ads -->
+
+<!-- start products -->
+<div class="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_title">
+                    <h2 class=""> عبايات مناسبات </h2>
+                </div>
+            </div>
+        </div>
+        <div class="owl-carousel owl-theme owl-products">
+            <div class="product-item wow fadeInUp" data-wow-duration="0.9s" data-wow-delay="0.5s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="product-details.html">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item wow fadeInUp" data-wow-duration="0.92s" data-wow-delay="0.52s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="product-details.html">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item wow fadeInUp" data-wow-duration="0.93s" data-wow-delay="0.53s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="product-details.html">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item wow fadeInUp" data-wow-duration="0.94s" data-wow-delay="0.54s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="product-details.html">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end products -->
+
+
+<!-- start add_two -->
+<div class="ads ads_two">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="ads_two_info wow fadeInUp" data-wow-duration="0.94s" data-wow-delay="0.54s">
+                    <h3> اشتري قطعة و احصل على اخرى هدية </h3>
+                    <a href=""> تسوق </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="ads_two_info last-add wow fadeInDown" data-wow-duration="0.94s" data-wow-delay="0.54s">
+                    <h3> اشتري قطعة و احصل على اخرى هدية </h3>
+                    <a href=""> تسوق </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end add_two -->
+
+<!-- start add_three -->
+<div class="ads ads_three">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="ads_three_info wow fadeInUp" data-wow-duration="0.94s" data-wow-delay="0.54s">
+                    <h3></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end add_three -->
+
+<!-- start products -->
+<div class="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_title wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.54s">
+                    <h2 class=""> طرح </h2>
+                </div>
+            </div>
+        </div>
+        <div class="owl-carousel owl-theme owl-products">
+
+            <d iv class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.54s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="#">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </d>
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.55s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="#">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.72s" data-wow-delay="0.56s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="#">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.73s" data-wow-delay="0.57s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="#">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end products -->
+
+<!-- start products -->
+<div class="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_title wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                    <h2 class=""> عطور </h2>
+                </div>
+            </div>
+        </div>
+        <div class="owl-carousel owl-theme owl-products">
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="#">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="#">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="#">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="#">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end products -->
+
+<!-- start add_four -->
+<div class="ads ads_four">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="ads_four_info wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                    <h3> كاجوال من أجلك </h3>
+                    <a href=""> تسوق </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="ads_four_info wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                    <h3> كاجوال من أجلك </h3>
+                    <a href=""> تسوق </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="ads_four_info wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                    <h3> كاجوال من أجلك </h3>
+                    <a href=""> تسوق </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end add_four -->
+
+<!-- start add_three -->
+<div class="ads ads_three">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="ads_three_info wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                    <h3></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end add_three -->
+
+<!-- start for you -->
+<div class="for_you">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_title wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                    <h2 class="">من أجلك </h2>
+                </div>
+            </div>
+        </div>
+        <div class="our_for_you">
+            <div class="for_you_info wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <img src="images/NoPath - Copy (5).png" alt="عطور">
+                <a href="" class="anchor_link"> عطور </a>
+            </div>
+            <div class="for_you_info wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.7s">
+                <img src="images/NoPath - Copy (6).png" alt="عطور">
+                <a href="" class="anchor_link"> سكارف </a>
+            </div>
+            <div class="for_you_info wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.9s">
+                <img src="images/NoPath - Copy (9).png" alt="عطور">
+                <a href="" class="anchor_link"> حقائب </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end for you -->
+
+<!-- start one-ads -->
+<div class="ads ads_one">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="ads_one_info wow fadeInRUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                    <h3> خصم يصل إلى <br> 20% </h3>
+                    <a href=""> تسوق </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="ads_one_info last-add wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                    <h3> خصم يصل إلى <br> 20% </h3>
+                    <a href=""> تسوق </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end one-ads -->
+
+<!-- start products -->
+<div class="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_title wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                    <h2 class=""> طرح </h2>
+                </div>
+            </div>
+        </div>
+        <div class="owl-carousel owl-theme owl-products">
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="product-details.html">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="product-details.html">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="product-details.html">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="product-details.html">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end products -->
+
+<!-- start products -->
+<div class="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_title wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                    <h2 class=""> عطور </h2>
+                </div>
+            </div>
+        </div>
+        <div class="owl-carousel owl-theme owl-products">
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="#">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="product-details.html">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="product-details.html">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="product-details.html">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end products -->
+
+<!-- start products -->
+<div class="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_title wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                    <h2 class=""> طرح </h2>
+                </div>
+            </div>
+        </div>
+        <div class="owl-carousel owl-theme owl-products">
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="product-details.html">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="product-details.html">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="product-details.html">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <div class="img-overlay">
+                    <img src="images/Capture222.png" alt="dress">
+                    <span class="sale">-50%</span>
+                    <div class="product-options">
+                        <button>
+                            <i class="heart-icon fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="share-icon fas fa-share-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="product-details.html">عباية راس إسلامية مسكرة مع كم مقلم بتطريز ناعم
+                    </a>
+                    <p class="store_name">عبايات حوراء</p>
+                    <div class="product-review">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="product-price">
+                        <p>120 ر.س</p>
+                        <span class="delete-price">180 ر.س</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end products -->
+
+<!-- start for you -->
+<div class="for_you">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_title wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                    <h2 class="">من أجلك </h2>
+                </div>
+            </div>
+        </div>
+        <div class="our_for_you">
+            <div class="for_you_info wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                <img src="images/NoPath - Copy (5).png" alt="عطور">
+                <a href="" class="anchor_link"> عطور </a>
+            </div>
+            <div class="for_you_info wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.7s">
+                <img src="images/NoPath - Copy (6).png" alt="عطور">
+                <a href="" class="anchor_link"> سكارف </a>
+            </div>
+            <div class="for_you_info wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.9s">
+                <img src="images/NoPath - Copy (9).png" alt="عطور">
+                <a href="" class="anchor_link"> حقائب </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end for you -->
+
+<!-- start download app -->
+<div class="download_app">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="download_app_info wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                    <h3>يكتب الشعار فى تلك
+                        على ان يكون قصير</h3>
+                    <p>احصل على أفضل عباية بأفضل سعر من حورة يمكنك الحصول على التطبيق من متجر جوجل بلاي و جوجل بلاي</p>
+                    <div class="btns_download">
+                        <a href="#">
+                            <img src="images/google-play.png" alt="google-play">
+                        </a>
+                        <a href="#">
+                            <img src="images/app-store.png" alt="app-store">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="download_app_img wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.7s">
+                    <img src="images/Group-536.png" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end download app -->
+
+<!-- start be store -->
+<div class="be_store">
+    <h3>كن متجر مشارك معنا</h3>
+    <p>في حوراء يمكنك مشاهدة منتجاتك وجذب شريحة جديدة من المستخدمين</p>
+    <a href="" class="anchor_link hvr-rectangle-out">سجل كبائع</a>
+    <div class="cover_one wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+        <img src="images/Group-1081.png" alt="">
+    </div>
+    <div class="cover_two wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.5s">
+        <img src="images/Group-1081.png" alt="">
+    </div>
+</div>
+<!-- end be store -->
+
+<!-- start services -->
+<div class="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="d-flex wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+                    <div class="flex-shrink-0">
+                        <img src="images/Group-538.png" alt="services">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h3>توصيل</h3>
+                        <p>الشحن من العديد من الوكالات والعروض الخاصة للطلبات التي تزيد عن 2000 ريال سعودي</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.7s">
+                    <div class="flex-shrink-0">
+                        <img src="images/Group-429.png" alt="services">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h3>استرجاع</h3>
+                        <p> ما عليك سوى إعادته في غضون 30 يومًا من أجل التبادل </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.9s">
+                    <div class="flex-shrink-0">
+                        <img src="images/Group -39.png" alt="services">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h3>دعم 24/7</h3>
+                        <p>اتصل بنا 24 ساعة في اليوم ، 7 أيام في الأسبوع</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end services -->
+
+
+<!-- start footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="footer_top">
+                    <img src="" alt="">
+                    <h3>Horra Hejab</h3>
+                    <p>سيتم كتابة شعار العلامة التجارية هنا</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-info">
+                    <h3>مهتمة يوصلك كل جديد؟</h3>
+                    <p>بإدخال بريدك الإلكتروني ، فإنك توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا.</p>
+                    <form action="">
+                        <input type="email" class="form-control" placeholder="البريد الألكتروني">
+                        <button type="submit"> ارسال </button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-info">
+                    <h3>تواصل معنا</h3>
+                    <ul class="list_anchor">
+                        <li>
+                            <a href="#">25 حى الدوار , الرياض , المملكة العربية السعودية</a>
+                        </li>
+                        <li>
+                            <a href="tel:0123456789">0123456789</a>
+                        </li>
+                        <li>
+                            <a href="mailto:Ahmedyousry@test.com"> Ahmedyousry@test.com </a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html"> تواصل معنا </a>
+                        </li>
+                        <li>
+                            <a href="about-us.html"> من نحن </a>
+                        </li>
+                    </ul>
+                    <ul class="social_media">
+                        <li>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-snapchat-ghost"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-info">
+                    <h3>السياسات</h3>
+                    <ul class="list_anchor">
+                        <li>
+                            <a href=""> سياسة الارجاع و الاتبدال </a>
+                        </li>
+                        <li>
+                            <a href=""> سياسة الخصوصية </a>
+                        </li>
+                        <li>
+                            <a href=""> الشروط و الاحكام </a>
+                        </li>
+                        <li>
+                            <a href=""> طرق الدفع </a>
+                        </li>
+                        <li>
+                            <a href=""> التوصيل </a>
+                        </li>
+                        <li>
+                            <a href=""> من نحن </a>
+                        </li>
+                        <li>
+                            <h6>توثيق معروق</h6>
+                            <p> 12355488 </p>
+                            <img src="images/dc8679b8b0f772d44f289e67e6d091c9.png" alt="maroof">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-info">
+                    <h3>روابط هامة</h3>
+                    <ul class="list_anchor">
+                        <li>
+                            <a href=""> حسابى </a>
+                        </li>
+                        <li>
+                            <a href=""> رغباتى </a>
+                        </li>
+                        <li>
+                            <a href=""> الأسئلة الشائعة </a>
+                        </li>
+                        <li>
+                            <a href="">جدول المقاسات </a>
+                        </li>
+                        <li>
+                            <h6>السجل الضريبى</h6>
+                            <p> 12355488 </p>
+                            <img src="images/1200px-QR_code_for_mobile_English_Wikipedia.svg.png" alt="maroof">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <p> جميع الحقوق محفوظة لدى &copy; حوراء </p>
+        <img src="images/Group-1211.png" alt="payment">
+    </div>
+</footer>
+<!-- end footer -->
+
+
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/all.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
+    <title>3bayat zharaa</title>
+</head>
+
+<body>
+    <!-- start login -->
+    <section class="authentication">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section_title">
+                        <h2 class=""> تسجيل دخول </h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">تسجيل دخول</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="authentication_div">
+                        <div class="form_auth">
+                            <form action="">
+                                <div class="input-group flex-nowrap form-floating mb-3 phone-number">
+                                    <span class="input-group-text" id="addon-wrapping"> <img src="images/Mask-Group-24.png" alt=""> </span>
+                                    <input type="tel" class="form-control" placeholder="phone" aria-label="phone"
+                                        aria-describedby="addon-wrapping" name="phone" id="phone">
+                                    <label for="floatingPassword">رقم الجوال أو البريد الألكتروني</label>
+                                </div>
+                                <div class="input-group flex-nowrap form-floating mb-3">
+                                    <span class="input-group-text" id="addon-wrapping"> <img src="images/Group-156.png" alt=""> </span>
+                                    <input type="password" class="form-control password" placeholder="password"
+                                        aria-label="password" aria-describedby="addon-wrapping" name="password" id="password">
+                                    <label for="floatingPassword">كلمة المرور</label>
+                                    <div class="eye-show">
+                                        <i class="fas fa-eye-slash"></i>
+                                    </div>
+                                </div>
+                                <div class="forget_password">
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#forgetpassword"> نسيت
+                                        كلمة المرور ؟ </button>
+                                </div>
+                                <button type="submit" class="submit_form hvr-rectangle-out"> تسجيل الدخول </button>
+                                <div class="have_account">
+                                    <p> لا تمتلك حساب ؟ <a href="signup.html"> إنشاء حساب </a> </p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end login -->
+
+
+    <!-- start modal code phone -->
+    <div class="modal fade" id="forgetpassword" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h5 class="modal-title" id="exampleModalLabel">نسيت كلمة المرور</h5>
+                </div>
+                <div class="modal-body">
+                    <p> ادخل رقم هاتفك و سنرسل لك <br> كود لإعادة تعيين كلمة المرور الخاصة بك </p>
+                    <div class="form_auth">
+                        <form action="">
+                            <div class="input-group flex-nowrap form-floating mb-3">
+                                <span class="input-group-text" id="addon-wrapping"> <img src="images/Mask-Group-24.png" alt=""> </span>
+                                <input type="tel" class="form-control" placeholder="phone" aria-label="phone"
+                                    aria-describedby="addon-wrapping" name="phone" id="phone">
+                                <label for="floatingPassword">رقم الجوال </label>
+                            </div>
+                            <button type="submit" class="submit_form hvr-rectangle-out"> إرسال </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal code phone -->
+
+
+
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/all.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/main.js"></script>
+</body>
+
+</html>
